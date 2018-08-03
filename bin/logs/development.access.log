@@ -1,0 +1,1074 @@
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T16:43:28+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T16:52:29+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T16:55:53+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T16:58:02+08:00 [-] [-] [development] [I] [CustomAgent.go:32] CustomAgent%!(EXTRA string=OnInit)
+2018-08-02T16:59:47+08:00 [-] [-] [development] [I] [CustomAgent.go:53] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-02T16:59:47+08:00 [-] [-] [development] [I] [CustomAgent.go:113] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-02T16:59:47+08:00 [-] [-] [development] [I] [module.go:63] 客户端断开了链接
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T17:00:15+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T17:15:55+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:13:20+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:14:06+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-02T19:14:06+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-02T19:14:07+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=2
+2018-08-02T19:14:07+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-02T19:14:07+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-02T19:14:31+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-02T19:14:31+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-02T19:14:33+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=2
+2018-08-02T19:14:33+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-02T19:14:33+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-02T19:14:54+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-02T19:14:54+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:15:22+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:15:32+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:16:16+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:16:38+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:18:06+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:18:24+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:18:41+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:19:24+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:21:04+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:21:20+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:28:39+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:28:46+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:28:57+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:30:09+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:30:16+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:31:16+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:32:21+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:32:39+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3653
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:35:00+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:38:32+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:39:19+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:40:08+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:41:02+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:41:13+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:42:35+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:42:55+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:43:28+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T19:43:38+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:44:03+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3563
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:44:10+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:44:17+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:48:08+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3853
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:50:33+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T19:50:35+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:50:39+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T19:50:41+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:50:45+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T19:51:03+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:51:05+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-02T19:51:21+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:51:36+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-02T19:58:55+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:01:19+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:03:30+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:05:23+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:06:54+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:08:08+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:09:26+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:10:10+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:18:34+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:22:09+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:22:34+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:22:34+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:33:29+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:38:21+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:38:21+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:38:25+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=6
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:40:00+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:40:13+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:40:34+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:40:34+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:40:36+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=0
+2018-08-03T10:40:36+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T10:40:36+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:43:09+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:43:33+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:43:33+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:43:57+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=6
+2018-08-03T10:45:09+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:45:09+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:45:27+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:45:30+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:45:30+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:45:44+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=4
+2018-08-03T10:45:44+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T10:45:44+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T10:46:05+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:46:05+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:46:11+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=6
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:47:19+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:47:48+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:47:48+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:47:51+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=6
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:56:39+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T10:57:31+08:00 [-] [-] [development] [I] [CustomAgent.go:36] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T10:57:31+08:00 [-] [-] [development] [I] [CustomAgent.go:57] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T10:58:55+08:00 [-] [-] [development] [I] [CustomAgent.go:70] read, head n=6
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T10:59:26+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T11:00:08+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T11:01:36+08:00 [-] [-] [development] [I] [CustomAgent.go:32] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T11:01:36+08:00 [-] [-] [development] [I] [CustomAgent.go:53] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T11:02:47+08:00 [-] [-] [development] [I] [CustomAgent.go:65] read n=39, head=[0 101 0 0 0 33 10 28 111 100 72 84 108 53 85 45 69 80 105 57 104 50 101 45 101 56 99 115 114 120 45 98 116 89 116 73 18 1 49]
+2018-08-03T11:02:47+08:00 [-] [-] [development] [I] [CustomAgent.go:83] end======
+2018-08-03T11:02:47+08:00 [-] [-] [development] [I] [CustomAgent.go:133] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T11:02:47+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [CustomAgent.go:32] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [CustomAgent.go:53] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [CustomAgent.go:65] read n=39, head=[0 101 0 0 0 33 10 28 111 100 72 84 108 53 85 45 69 80 105 57 104 50 101 45 101 56 99 115 114 120 45 98 116 89 116 73 18 1 49]
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [CustomAgent.go:83] end======
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [CustomAgent.go:133] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T11:04:49+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T11:08:08+08:00 [-] [-] [development] [I] [CustomAgent.go:32] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T11:08:08+08:00 [-] [-] [development] [I] [CustomAgent.go:53] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T11:08:09+08:00 [-] [-] [development] [I] [CustomAgent.go:65] read n=39, head=[0 101 0 0 0 33 10 28 111 100 72 84 108 53 85 45 69 80 105 57 104 50 101 45 101 56 99 115 114 120 45 98 116 89 116 73 18 1 49]
+2018-08-03T11:08:09+08:00 [-] [-] [development] [I] [CustomAgent.go:83] end======
+2018-08-03T11:08:09+08:00 [-] [-] [development] [I] [CustomAgent.go:133] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T11:08:09+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T11:11:19+08:00 [-] [-] [development] [I] [CustomAgent.go:32] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T11:11:19+08:00 [-] [-] [development] [I] [CustomAgent.go:53] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T11:11:20+08:00 [-] [-] [development] [I] [CustomAgent.go:65] read n=39, head=[0 101 0 0 0 33 10 28 111 100 72 84 108 53 85 45 69 80 105 57 104 50 101 45 101 56 99 115 114 120 45 98 116 89 116 73 18 1 49]
+2018-08-03T11:11:20+08:00 [-] [-] [development] [I] [CustomAgent.go:83] end======
+2018-08-03T11:11:20+08:00 [-] [-] [development] [I] [CustomAgent.go:133] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T11:11:20+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T13:12:17+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T13:13:12+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T13:14:32+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T13:14:32+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T13:16:42+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T13:18:04+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T13:18:04+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T13:18:07+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T13:18:10+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T13:18:10+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:13:34+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:13:34+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:14:11+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:15:06+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:15:06+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T16:15:37+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T16:16:27+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:16:27+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:16:27+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:16:27+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:16:27+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:20:06+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:20:06+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:20:06+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:20:06+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:20:06+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:21:33+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:21:33+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:21:33+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:21:33+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:21:33+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:23:11+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:23:11+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:23:11+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:23:11+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:23:11+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:24:02+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:24:02+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:24:02+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:24:02+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:24:02+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:24:24+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:24:24+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:24:24+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:24:24+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:24:24+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:26:37+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:26:37+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:26:37+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:26:37+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:26:37+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:26:57+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:26:57+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:26:57+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:26:57+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:26:57+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:36:02+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:36:02+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:36:02+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:36:02+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:36:02+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:40:16+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:40:16+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:40:16+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:40:16+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:40:16+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:40:23+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:40:23+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:40:23+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:40:23+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:40:23+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:51:05+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:51:05+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:51:05+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:51:05+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:51:05+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:53:17+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:53:17+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:53:17+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:53:17+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:53:17+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:54:49+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:54:49+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:54:49+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:54:49+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:54:49+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T16:58:15+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T16:58:15+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T16:58:15+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T16:58:15+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T16:58:15+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:09:12+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:09:12+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:09:12+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:09:12+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:09:12+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:12:07+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:12:07+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:12:07+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:12:07+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:12:07+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:17:05+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:17:05+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:17:05+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:17:05+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:17:05+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:18:49+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:18:49+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:18:49+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:18:49+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:18:49+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:21:07+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:21:07+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:21:07+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:21:07+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:21:07+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:21:44+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:21:44+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:21:44+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:21:44+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:21:44+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:23:48+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:23:48+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:23:48+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:23:48+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:23:48+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:24:13+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:24:13+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:24:13+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:24:13+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:24:13+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:25:43+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:25:43+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:25:43+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:25:43+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:25:43+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:26:42+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:26:42+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:26:43+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:26:43+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:26:43+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:31:34+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:31:34+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:31:34+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:31:34+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:31:34+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:35:26+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:35:26+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:35:26+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:35:26+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:35:26+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:37:53+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:37:53+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:37:53+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:37:53+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:37:53+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:39:22+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:39:22+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:39:22+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:39:22+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:39:22+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:41:02+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:41:02+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:41:02+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:41:02+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:41:02+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:42:29+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:42:29+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:42:29+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:42:29+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:42:29+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:44:48+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:44:48+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:44:48+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:44:48+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:44:48+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:46:27+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:46:27+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:46:27+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:46:27+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:46:27+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T17:53:48+08:00 [-] [-] [development] [I] [CustomAgent.go:34] CustomAgent%!(EXTRA string=OnInit)
+2018-08-03T17:53:48+08:00 [-] [-] [development] [I] [CustomAgent.go:55] CustomAgent%!(EXTRA string=开始读数据了)
+2018-08-03T17:53:48+08:00 [-] [-] [development] [I] [CustomAgent.go:61] sucess read data:c_player_login, []
+2018-08-03T17:53:48+08:00 [-] [-] [development] [I] [CustomAgent.go:132] CustomAgent%!(EXTRA string=连接断开事件)
+2018-08-03T17:53:48+08:00 [-] [-] [development] [I] [module.go:60] 客户端断开了链接
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-03T18:01:12+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T18:01:32+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T18:01:58+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T18:02:33+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T18:02:34+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T18:02:34+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T18:02:34+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:143] mqant 1.8.0 starting up
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Gate) id(Gate001)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Master) id(Master001)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Login) id(Login001)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Test) id(Test001)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [app.go:247] RPCClient create success type(Webapp) id(Webapp001)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [ModuleManager.go:50] This service ProcessID is [development]
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Master001) version(1.0.0)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [rpcserver.go:56] RPCServer init success id(Gate001) version(1.0.0)
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [ws_server.go:117] WS Listen ::3954
+2018-08-03T18:20:35+08:00 [-] [-] [development] [I] [tcp_server.go:39] TCP Listen ::3564
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Gate001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Gate001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [rpcserver.go:60] RPCServer closeing id(Master001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [rpcserver.go:65] RPCServer close success id(Master001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Webapp) id(Webapp001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Webapp) id(Webapp001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Gate) id(Gate001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Gate) id(Gate001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Master) id(Master001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Master) id(Master001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Login) id(Login001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Login) id(Login001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:255] RPCClient closeing type(Test) id(Test001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:260] RPCClient close success type(Test) id(Test001)
+2018-08-03T18:20:38+08:00 [-] [-] [development] [I] [app.go:178] mqant closing down (signal: interrupt)

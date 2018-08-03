@@ -1,0 +1,163 @@
+syntax = "proto2";
+package proto;
+
+//玩家相关
+//1001
+message c_player_login {
+    required string session = 1;        // 这里没平台 默认为账号
+    required string pf = 2;
+}
+//1002
+message s_player_login {
+}
+
+
+enum e_code {
+    ok = 0
+    fail = 1
+}
+
+enum e_shin_result {
+	LOGIN_SUCCESS = 0;
+	LOGIN_FAIL = 1;
+}
+
+enum e_shin_gender {
+    GENDER_NULL = 0;
+    GENDER_MALE = 1;
+    GENDER_FEMAIL = 2;
+}
+
+enum e_shin_player_attr {
+    PLAYER_ATTR_NAME = 3;
+    PLAYER_ATTR_GENDER = 4;
+    PLAYER_ATTR_AVATAR = 5;
+    PLAYER_ATTR_GOLD = 6;
+    PLAYER_ATTR_GEMS = 7;
+    PLAYER_ATTR_PH = 8;
+    PLAYER_ATTR_PVP_DIVISION = 9;
+    PLAYER_ATTR_PVP_STAR = 10;
+    PLAYER_ATTR_PVP_SCORE = 11;
+    PLAYER_ATTR_CHAT_SESSION = 12;
+    PLAYER_ATTR_PH_CONFIRM = 14;
+    PLAYER_ATTR_PH_LIST = 15;
+}
+
+enum e_shin_online {
+    //离线
+    SHIN_OFFLINE = 0;
+    //在线
+    SHIN_ONLINE = 1;
+}
+
+// 10
+message c2s_login {
+    required string accname  = 1;
+}
+// 11
+message s2c_login{
+    required int32 ret = 1;
+}
+
+//101   pf:android/ios
+message c_player_login {
+    required string session = 1;
+    required string pf = 2;
+}
+
+//102
+message s_player_login {
+  required e_shin_result result = 1;
+  required uint32 player_id = 2;
+}
+
+//103
+message c_player_info {
+  required uint32 player_id = 1;
+}
+
+//104
+message s_player_info {
+  required uint32 player_id = 1;
+  //名字
+  required string player_name = 2;
+  //性别
+  required e_shin_gender gender = 3;
+  //头像ID
+  required uint32 avatar = 4;
+  //金币
+  required uint32 gold = 5;
+  //宝石
+  required uint32 gems = 6;
+}
+
+//105 单条玩家属性更新
+message c_player_attr {
+   required e_shin_player_attr key = 1;
+   required string value = 2;
+}
+
+//106 单条玩家属性更新
+message s_player_attr {
+    required e_shin_player_attr key = 1;
+    required string value = 2;
+}
+
+//121
+message c_server_time {
+}
+
+//122
+message s_server_time {
+    required uint32 server_time = 1;
+}
+
+//123
+message c_game_state {
+    required uint32 state = 1;
+}
+
+//124
+message s_game_state {
+    required uint32 state = 1;
+}
+
+message plyer_op {
+    // [dir.6b|btn.18b|state.8b] dir=63:disable dir<63:enable, btn=1:enable btn=0:disable
+    required fixed32 d_b_s = 1;
+    // [val1.8b|val2.8b|id?.16b]
+    optional uint32 v1_v2 = 2;
+}
+
+//201 [dir.6b|btn.26b] 
+// [0-5]                         [6-31]                      
+// dir=63:disable dir<63:enable, btn=1:enable btn=0:disable
+message c_player_frame {
+    // [dir.6b|btn.18b|state.8b] dir=63:disable dir<63:enable, btn=1:enable btn=0:disable
+    repeated fixed32 d_b_s = 1;
+    //repeated plyer_op btns = 1;
+}
+
+// unit in scene
+message unit_state {
+    // [id.16b|weapon.16b]
+    required fixed32 id_wp = 1;
+    // [x.16b|y.16b]   
+    required fixed32 x_z = 2;
+    // [dir.6b|state.8b|wear.16b|?.2b]
+    // [0-64]  [0-255]
+    required fixed32 d_s_w = 3;
+}
+
+message op_result {
+    // [op.16b|id.16b]
+    required fixed32 op_id = 1;
+    // [v1.8b|v2.8b|?.16b]
+    optional fixed32 v1_v2 = 2;
+}
+
+//202
+message s_player_frame {
+    repeated unit_state units = 1;
+    repeated op_result ops = 2;
+}

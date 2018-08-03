@@ -1,0 +1,195 @@
+2018-08-02T19:16:16+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:16:16+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:16:38+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:18:06+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:18:06+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:18:24+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:18:41+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:19:24+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:19:24+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:21:04+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:21:04+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:21:20+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:28:39+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:28:39+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:28:46+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:28:57+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:30:09+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:30:09+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:30:16+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:30:36+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:31:16+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:32:21+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:32:21+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:32:39+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3653: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:35:00+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:39:19+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:39:19+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:40:08+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:41:02+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:41:02+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:41:13+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:42:35+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:42:35+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3563: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-02T19:44:10+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:44:17+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-02T19:48:08+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3853: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
+2018-08-03T10:40:00+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3564: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-03T10:40:13+08:00 [-] [-] [development] [W] [tcp_server.go:46] listen tcp :3564: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/tcp_server.go:46
+github.com/liangdas/mqant/network/tcp_server.go:38
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:270
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+2018-08-03T13:12:17+08:00 [-] [-] [development] [W] [ws_server.go:77] listen tcp :3954: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted. 
+github.com/liangdas/mqant/network/ws_server.go:77
+github.com/liangdas/mqant/gate/base/mqtt_gate.go:267
+github.com/liangdas/mqant/module/base/DefaultModule.go:43
+runtime/asm_amd64.s:2361
