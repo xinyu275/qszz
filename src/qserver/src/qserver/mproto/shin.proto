@@ -33,18 +33,18 @@ message c_lobby_enter {
 }
 //1102 进入大厅
 message s_lobby_enter {
-    required e_code code = 1;
-    required int32 room_id = 2;         // room_id > 0,上一局没有结束的游戏房间ID; 
+    required int32 room_id = 1;         // room_id > 0,上一局没有结束的游戏房间ID; 
                                         // room_id == -1,提示上一局游戏结束; 
                                         // room_id == 0,没有上一局
 }
 
 //1103 开始匹配新的一局游戏
-message c_lobby_match {
+message c_lobby_mutch {
 }
 //1104 开始匹配新的一局游戏
-message s_lobby_match {
-    required e_code code = 1;
+message s_lobby_mutch {
+    required uint32 result = 1;         // result == 0,匹配成功,并开始加载游戏; 
+                                        // result == 1,匹配失败;
 }
 
 //1105 取消匹配新的一局游戏
@@ -52,7 +52,8 @@ message c_lobby_cancel {
 }
 //1106 取消匹配新的一局游戏
 message s_lobby_cancel {
-    required e_code code = 1;
+    required uint32 result = 1;         // result == 0,取消匹配成功; 
+                                        // result == 1,取消匹配失败;
 }
 
 //----------------玩家信息相关(模块20)---------------

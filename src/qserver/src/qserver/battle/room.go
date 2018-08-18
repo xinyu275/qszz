@@ -147,8 +147,6 @@ func (self *Room) UpdateSec() {
 	self.doSafeArea()
 	//2.在非安全区域玩家扣血
 	self.doSafeArenaHurt()
-	//3.机器人处理
-	self.doRobot()
 }
 
 /**

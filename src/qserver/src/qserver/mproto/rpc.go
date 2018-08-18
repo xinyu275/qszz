@@ -14,13 +14,6 @@ var (
 		"c_server_time":  1003,
 		"s_server_time":  1004,
 
-		"c_lobby_enter": 1101,
-		"s_lobby_enter": 1102,
-		"c_lobby_match": 1103,
-		"s_lobby_match": 1104,
-		"c_lobby_cancel": 1105,
-		"s_lobby_cancel": 1106,
-
 		"c_player_info": 2001,
 		"s_player_info": 2002,
 
@@ -36,7 +29,6 @@ var (
 	// msgid/100 对应模块名
 	PerMsgId_To_Module = map[int]string{
 		10: "Login",
-		11: "Lobby",
 		20: "User",
 		30: "Battle",
 	}

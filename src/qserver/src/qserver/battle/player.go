@@ -13,24 +13,25 @@ type Player struct {
 	Id             int // 房间唯一id
 	X              int // 像素
 	Y              int
-	Dir            int   // 方向
-	Hp             int   // 玩家血量
-	HpMax          int   // 玩家最大血量（默认血量+增益物品）
-	Def            int   // 玩家防御（增益物品）
-	AddRange       int   // 子弹射程增益，子弹的射程=子弹基础射程+AddRange
-	AddHurt        int   // 子弹伤害增益 子弹伤害=子弹基础伤害+AddHurt
-	AddBulletSpeed int   // 子弹移动速度增益 子弹速度=子弹基础速度+AddBulletSpeed
-	Mp             int   // 能量
-	MpMax          int   // 能量上限
-	Weight         int   // 重量(玩家+武器+增益物品)
-	Shield         int   // 玩家护盾
-	Wear           int   // 衣服
-	WeaponType     int   // 武器类型
-	LX             int   //本帧开始时的x
-	LY             int   //本帧开始时的y
-	PlayerWeapons  []int // 玩家枪的唯一id列表（默认1， >=2为场景生成的枪）
-	CurWeaponId    int   // 玩家当前使用的枪
-	FireLastTime   int64 // 枪上次射击时间(毫秒),换枪要重置时间(会有bug:玩家不断换枪再开枪，但是应该没事有子弹限制)
+	Dir            int // 方向
+	Hp             int // 玩家血量
+	HpMax          int // 玩家最大血量（默认血量+增益物品）
+	Def            int // 玩家防御（增益物品）
+	AddRange       int // 子弹射程增益，子弹的射程=子弹基础射程+AddRange
+	AddHurt        int // 子弹伤害增益 子弹伤害=子弹基础伤害+AddHurt
+	AddBulletSpeed int // 子弹移动速度增益 子弹速度=子弹基础速度+AddBulletSpeed
+	Mp             int // 能量
+	MpMax          int // 能量上限
+	Weight         int // 重量(玩家+武器+增益物品)
+	Shield         int // 玩家护盾
+	Wear           int // 衣服
+	WeaponType     int // 武器类型
+	LX             int //本帧开始时的x
+	LY             int //本帧开始时的y
+
+	PlayerWeapons []int // 玩家枪的唯一id列表（默认1， >=2为场景生成的枪）
+	CurWeaponId   int   // 玩家当前使用的枪
+	FireLastTime  int64 // 枪上次射击时间(毫秒),换枪要重置时间(会有bug:玩家不断换枪再开枪，但是应该没事有子弹限制)
 
 	BagItems      map[int]int // 玩家的背包物品 BaseId -> Num
 	BagItemsCount int         // 玩家的背包物品数量统计
@@ -39,7 +40,6 @@ type Player struct {
 	MoveSpeedUp int // 玩家技能加速万分比
 	MpFrame     int // 能量帧数(加速/回复能量/加速扣除能量/结束加速 会设置为当前帧)
 
-	Robot
 	Ops    []*Msg //玩家操作包
 	Loaded bool   // 前段是否已经加载完成
 }

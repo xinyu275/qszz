@@ -8,7 +8,6 @@ import (
 	"qserver/db"
 	"qserver/gate"
 	"qserver/login"
-	"qserver/lobby"
 	"qserver/user"
 )
 
@@ -23,7 +22,6 @@ func main() {
 		modules.MasterModule(),
 		mgate.Module(), //这是默认网关模块,是必须的支持 TCP,websocket,MQTT协议
 		login.Module(),
-		lobby.Module(),
 		user.Module(),
 		battle.Module(),
 		//tracing.Module(), //很多初学者不会改文件路径，先移除了

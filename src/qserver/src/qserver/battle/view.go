@@ -31,15 +31,6 @@ func (self *View) GetGrid(gridId int) *Grid {
 	return g
 }
 
-//获取格子内的所有玩家
-func (self *View) GetGridPlayers(x, y int) []*Player {
-	gridId := CalcGridByXY(x, y)
-	if g, ok := self.GridList[gridId]; ok {
-		return g.inPlayers
-	}
-	return nil
-}
-
 //初始化玩家
 func (self *View) AddPlayer(player *Player) {
 	gridId := CalcGridByXY(player.X, player.Y)
