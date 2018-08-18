@@ -1,0 +1,173 @@
+syntax = "proto2";
+
+package mproto;
+
+//全局枚举
+enum e_code {
+    ok = 0;
+    fail = 1;
+}
+
+//------------------玩家登陆相关(模块10)-----------------
+//1001
+message c_player_login {
+    required string token = 1;        // 这里没接入平台前 默认为账号
+    required string pf = 2;
+}
+//1002
+message s_player_login {
+  required e_code code = 1;
+}
+
+//1003
+message c_server_time {
+}
+//1004
+message s_server_time {
+    required uint64 server_time = 1; //毫秒时间戳
+}
+
+//-----------------游戏大厅相关(模块11)----------------
+//1101 进入大厅
+message c_lobby_enter {
+}
+//1102 进入大厅
+message s_lobby_enter {
+    required int32 room_id = 1;         // room_id > 0,上一局没有结束的游戏房间ID; 
+                                        // room_id == -1,提示上一局游戏结束; 
+                                        // room_id == 0,没有上一局
+}
+
+//1103 开始匹配新的一局游戏
+message c_lobby_mutch {
+}
+//1104 开始匹配新的一局游戏
+message s_lobby_mutch {
+    required uint32 result = 1;         // result == 0,匹配成功,并开始加载游戏; 
+                                        // result == 1,匹配失败;
+}
+
+//1105 取消匹配新的一局游戏
+message c_lobby_cancel {
+}
+//1106 取消匹配新的一局游戏
+message s_lobby_cancel {
+    required uint32 result = 1;         // result == 0,取消匹配成功; 
+                                        // result == 1,取消匹配失败;
+}
+
+//----------------玩家信息相关(模块20)---------------
+//2001
+message c_player_info {
+}
+//2002
+message s_player_info {
+    required uint32 player_id = 1;            // 玩家id
+    required string player_name = 2;          // 玩家名
+    required e_shin_gender gender = 3;
+    required uint32 avatar = 4;
+    optional uint32 gold = 5 [default = 0];
+    optional uint32 gems = 6 [default = 0];
+}
+enum e_shin_gender {
+    GENDER_NULL = 0;
+    GENDER_MALE = 1;
+    GENDER_FEMAIL = 2;
+}
+
+
+//-----------------战斗相关(模块30)----------------
+//3001
+// [dir.6b]                        移动
+// [dir.6b|btn.10b|fireDir.16b]    移动|开火
+// [dir.6b|btn.10b|weaponId.16b]   移动|换枪
+// [dir.6b|btn.10b|id.14b|type.2b] 移动|拾取|丢弃
+// [dir.6b|btn.10b|skillId.16b]    移动|释放技能
+
+// [dir.6b|btn.10b]                移动|开启倍镜
+// [dir.6b|btn.10b|id.14b]         移动|使用道具|驾驶车、船、摩托|销毁
+
+message c_player_frame {
+    required bytes op = 1;
+}
+
+//3002
+message s_player_frame {
+    //玩家属性[id.8b|dir.8b|x.16b|y.16b]
+    optional bytes units = 1;
+
+    //玩家附加属性[id.8b|weapon.8b|wear.8b|shield.8b|hp.10b|hp_max.10b|itemcount.8b|预留.4b]
+    optional bytes extra_units = 2;
+
+    //物品[id.14|owner.8b|baseid.8b|state.2b|x.16b|y.16b]
+    //state==1销毁物品  owner > 0说明被人捡起要在场景里消失 owner == 0 物品要重新回到场景中显示出来
+    optional bytes items = 3;
+
+    //武器[id.14|owner.8b|baseid.8b|state.2b|x.16b|y.16b]b
+    //state==1销毁武器  owner > 0说明被人捡起要在场景里消失 owner == 0 武器要重新回到场景中显示出来
+    //baseid 是预留的，不要处理
+    optional bytes weapons = 4;
+
+    //子弹[id.14|dir.8b|add_speed.10b|x.16b|y.16b|weaponType.8b|add_range.8b]
+    optional bytes bullets = 5;
+
+    //操作返回 [op.8b|id.14b|type.2b|val.8b]
+    //[开火|子弹id|子弹|子弹数量]
+    //[换枪|最新装备的枪的唯一id|武器|0]
+    //[拾取|枪唯一id(物品类型id)|武器(物品)|枪的子弹数(物品数)]
+    // 属性返回
+    // 能量属性返回[op.8|mp_max.12b|mp.12b]
+    optional bytes ops = 8;
+}
+
+//获取场景信息
+//3003
+message c_battle_start{
+}
+//3004
+message s_battle_info{
+    required int32 bid = 1;             //玩家战场虚拟唯一id
+    repeated p_battle_obj  list = 2;    //对象列表
+    required int32 is_start = 3;        //游戏是否开始（1：开始）
+    repeated p_weapon own_weapons = 4;  // 玩家枪的列表
+    repeated p_item own_items = 5;      // 玩家物品列表
+    optional uint32 time_start = 7;     // 游戏的开始时间,毒圈的缩圈用(秒时间戳)
+}
+
+//战场物品/武器等
+message p_battle_obj {
+    required uint32 id      = 1;                // 唯一id
+    optional uint32 baseId  = 2;
+    required e_battle_obj_type type    = 3;
+    required uint32 x       = 4;
+    required uint32 y       = 5;
+    optional uint32 wear    = 6;
+    optional uint32 owner    = 7;                //枪/物品所有者id
+}
+enum e_battle_obj_type {
+    OBJ_UNIT = 0;
+    OBJ_WEAPON = 1;
+    OBJ_ITEM = 2;
+    OBJ_BULLET = 3;
+}
+//枪属性
+message p_weapon {
+    required int32 weapon_id = 1;       // 枪的唯一id (1.默认的枪 >=2 就是场景生成的枪)
+    required int32 is_equip = 2;        // 是否是当前装备的（1：是）
+    required int32 bullet_num = 3;      // 子弹数量
+}
+//物品属性
+message p_item {
+    required int32 base_id = 1;         // 物品baseid（就是现在得类型id）
+    required int32 num = 2;             // 物品数量
+}
+//3005
+message c_battle_loaded {
+}
+
+//3006
+//发射者通知服务器谁被击中了
+message c_battle_hurt {
+    required int32 bullet_id = 1;                    // 子弹id
+    required int32 player_battle_id = 2;             // 战场内玩家的虚拟id
+}

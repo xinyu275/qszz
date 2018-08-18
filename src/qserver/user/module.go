@@ -4,10 +4,10 @@
 package user
 
 import (
-	"fmt"
 	"github.com/liangdas/mqant/conf"
 	"github.com/liangdas/mqant/module"
 	"github.com/liangdas/mqant/module/base"
+	"sync"
 )
 
 var Module = func() module.Module {
@@ -17,6 +17,8 @@ var Module = func() module.Module {
 
 type User struct {
 	basemodule.BaseModule
+	players map[int]*Player
+	mu      sync.Mutex
 }
 
 func (self *User) GetType() string {
@@ -29,8 +31,9 @@ func (self *User) Version() string {
 }
 func (self *User) OnInit(app module.App, settings *conf.ModuleSettings) {
 	self.BaseModule.OnInit(self, app, settings)
+	self.players = make(map[int]*Player)
 
-	self.GetServer().RegisterGO("mongodb", self.mongodb) //演示后台模块间的rpc调用
+	self.GetServer().RegisterGO("c_player_info", self.cPlayerInfo)
 }
 
 func (self *User) Run(closeSig chan bool) {
@@ -41,8 +44,20 @@ func (self *User) OnDestroy() {
 	self.GetServer().OnDestroy()
 }
 
-func (self *User) mongodb() (rpc_result string, rpc_err string) {
+//根据玩家id获取玩家信息
+func (self *User) getPlayer(playerId int) (*Player, error) {
+	self.mu.Lock()
+	defer self.mu.Unlock()
 
-
-	return fmt.Sprintf("My is Login Module"), ""
+	if player, ok := self.players[playerId]; ok {
+		return player, nil
+	}
+	player, err := getPlayerInfoFromDb(playerId)
+	if err != nil {
+		return nil, err
+	}
+	self.players[playerId] = player
+	return player, nil
 }
+
+//TODO更新玩家session

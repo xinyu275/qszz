@@ -6,8 +6,8 @@ import (
 	"github.com/liangdas/mqant/gate/base"
 	"github.com/liangdas/mqant/log"
 	"github.com/liangdas/mqant/module"
-	gate "github.com/liangdas/mqant/gate"
-)
+	"github.com/liangdas/mqant/gate"
+	)
 
 var Module = func() module.Module {
 	gate := new(Gate)
@@ -16,9 +16,8 @@ var Module = func() module.Module {
 
 type Gate struct {
 	basegate.Gate //继承
+
 }
-
-
 func (gate *Gate) GetType() string {
 	//很关键,需要与配置文件中的Module配置对应
 	return "Gate"
@@ -39,7 +38,6 @@ func (this *Gate)CreateAgent() gate.Agent{
 func (gate *Gate) OnInit(app module.App, settings *conf.ModuleSettings) {
 	//注意这里一定要用 gate.Gate 而不是 module.BaseModule
 	gate.Gate.OnInit(gate, app, settings)
-
 
 	//与客户端通信的自定义粘包示例，需要mqant v1.6.4版本以上才能运行
 	//该示例只用于简单的演示，并没有实现具体的粘包协议
